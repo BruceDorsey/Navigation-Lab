@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  height:100vw;
+  width:100vh;
+}
+
+.Body{
+  margin:0;
+  padding:0;
+}
+
+.Sidebar {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: blueviolet;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+/* Darker background on mouse-over */
+.hover.hover {
+  background-color: RoyalBlue;
+}
+.icon{
+  color:white;
+}
+.title {
+  color:white;
+}
